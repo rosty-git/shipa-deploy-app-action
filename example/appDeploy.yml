@@ -1,8 +1,8 @@
 app: github-app-v2
 image: docker.io/shipasoftware/bulletinboard:1.0
-steps: 2
-step-weight: 1
-step-interval: 3m
-port: 8000
-detach: true
-message: Message
+appConfig:
+  team: shipa-team
+  framework: project1
+port:
+  number: 8000
+  protocol: TCP
